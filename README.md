@@ -11,15 +11,17 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 
 Many MLIPs suffer from poor transferability due to insufficient or biased training data, which is often limited to equilibrium configurations. In this project, we explore whether supplementing *minimum energy path (MEP)* data (from NEB calculations) can improve the **accuracy and stability** of MLIP models.
 
+<p align="center">
+  <img src="docs/images/motivation.gif" width="600">
+</p>
+
 ---
 
-## 🔬 System Overview
-
-### Workflow
+## 🔬 Approach Overview
 
 1. **Data Generation**
     - Sampled atomic structures using Relaxation, MD, and NEB (via ASE)
-    - Focus: Adsorption systems (Au/OH on Al(100), Au on AlPd(100))
+    - Focus: Adsorption systems (Au on Al(100), Au on AlPd(100))
 
 2. **ANN Model Training**
     - Trained two separate neural network potentials:
@@ -31,7 +33,7 @@ Many MLIPs suffer from poor transferability due to insufficient or biased traini
     - Compared energy conservation and force accuracy
 
 <p align="center">
-  <img src="docs/images/workflow_overview.png" width="600">
+  <img src="docs/images/overview.png" width="600">
 </p>
 
 ---
@@ -41,24 +43,15 @@ Many MLIPs suffer from poor transferability due to insufficient or biased traini
 | System            | Type         | Stable Site |
 |------------------|--------------|-------------|
 | Au on Al(100)     | Single metal | Hollow      |
-| OH on Al(100)     | Single metal | Bridge      |
 | Au on AlPd(100)   | Alloy metal  | Hollow      |
 
 <p align="center">
-  <img src="docs/images/systems.png" width="700">
+  <img src="docs/images/system_PES.png" width="700">
 </p>
 
 ---
 
 ## 📈 Key Results
-
-### 📊 Reference Potential Energy Surfaces
-- DFT-calculated adsorption PES confirms site preferences.
-- Used as ground truth to validate ANN predictions.
-
-<p align="center">
-  <img src="docs/images/pes.png" width="800">
-</p>
 
 ---
 
@@ -70,7 +63,7 @@ Many MLIPs suffer from poor transferability due to insufficient or biased traini
 | Set #2  | Relax + MD + **NEB**   | Near-equilibrium + saddle pts ✅ |
 
 <p align="center">
-  <img src="docs/images/dataset_comparison.png" width="700">
+  <img src="docs/images/dataset_comparison.gif" width="700">
 </p>
 
 ---
@@ -83,7 +76,7 @@ Many MLIPs suffer from poor transferability due to insufficient or biased traini
 | MD + **NEB**       | Low         | ✅                    |
 
 <p align="center">
-  <img src="docs/images/md_results.png" width="750">
+  <img src="docs/images/md_results.gif" width="750">
 </p>
 
 ---
