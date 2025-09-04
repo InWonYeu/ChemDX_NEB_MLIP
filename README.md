@@ -63,6 +63,9 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 | Set #1  | Relaxation + MD        | Near-equilibrium only        |
 | Set #2  | Relax + MD + **NEB**   | Near-equilibrium + saddle pts ✅ |
 
+- [Tutorial: Au on Al(100)](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/01_data_generation.ipynb)
+- [Tutorial: Au on AlPd(100)](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/01_data_generation.ipynb)
+  
 <p align="center">
   <img src="docs/images/dataset_comparison.gif" width="700">
 </p>
@@ -75,6 +78,11 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 |--------------------|-------------|----------------------|
 | MD-only            | High        | ❌                    |
 | MD + **NEB**       | Low         | ✅                    |
+
+- [Tutorial: Au on Al(100) on set 1](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/02_training_MD_set_1.ipynb)
+- [Tutorial: Au on Al(100) on set 2](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/02_training_MD_set_2.ipynb)
+- [Tutorial: Au on AlPd(100) on set 1](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/02_training_MD_set_1.ipynb)
+- [Tutorial: Au on AlPd(100) on set 2](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/02_training_MD_set_2.ipynb)
 
 <p align="center">
   <img src="docs/images/md_results.gif" width="750">
