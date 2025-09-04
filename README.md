@@ -108,14 +108,12 @@ Adding NEB-based data significantly improves:
 - Force prediction accuracy
 - Energy conservation during MD
 
-This strategy enables **more reliable and transferable MLIPs**, especially for surface and catalytic systems.
-
 ---
 
 ## 📌 Acknowledgments
 
 This project was developed during the **KRICT ChemDX Hackathon 2025**.  
-We thank the ChemDX team for providing access to the database and computational resources.
+We thank the ChemDX team for histing the event.
 
 ---
 
