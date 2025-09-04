@@ -9,7 +9,8 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 
 > **Can we systematically supply missing data that greatly improves MLIPs?**
 
-Many MLIPs suffer from poor transferability due to insufficient or biased training data, which is often limited to equilibrium configurations. In this project, we explore whether supplementing *minimum energy path (MEP)* data (from NEB calculations) can improve the **accuracy and stability** of MLIP models.
+- Many MLIPs suffer from poor transferability due to insufficient or biased training data, which is often limited to equilibrium configurations. 
+- In this project, we explore whether supplementing *minimum energy path (MEP)* data (from NEB calculations) can improve the **accuracy and stability** of MLIP models.
 
 <p align="center">
   <img src="docs/images/motivation.gif" width="600">
