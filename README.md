@@ -87,7 +87,7 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 ## 🛠 Tools Used
 
 - [**ASE**](https://ase-lib.org/): Structure generation, Relaxation, MD, NEB
-- [**AMP**](https://amp.readthedocs.io/en/latest/) (ASE's ML package): ANN model training
+- [**AMP**](https://amp.readthedocs.io/en/latest/): Atomistic Machine-learning Package
 - **ChemDX Database**: Initial structure and metadata source
 - Python (Jupyter), Matplotlib, NumPy
 
