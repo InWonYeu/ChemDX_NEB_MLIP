@@ -13,7 +13,7 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 - In this project, we explore whether supplementing *minimum energy path (MEP)* data (from NEB calculations) can improve the **accuracy and stability** of MLIP models.
 
 <p align="center">
-  <img src="docs/images/motivation.gif" width="600">
+  <img src="docs/images/motivation.gif" width="750">
 </p>
 
 ---
@@ -29,13 +29,13 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
         - **Set #1**: Relax + MD
         - **Set #2**: Relax + MD + NEB
 
+<p align="center">
+  <img src="docs/images/overview.png" width="750">
+</p>
+
 3. **Model Evaluation**
     - Tested models through ANN-MD simulations
     - Compared energy conservation and force accuracy
-
-<p align="center">
-  <img src="docs/images/overview.png" width="600">
-</p>
 
 ---
 
@@ -47,7 +47,7 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 | Au on AlPd(100)   | Alloy metal  | Hollow      |
 
 <p align="center">
-  <img src="docs/images/system_PES.png" width="700">
+  <img src="docs/images/system_PES.png" width="750">
 </p>
 
 ---
