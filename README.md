@@ -122,6 +122,6 @@ We thank the ChemDX team for providing access to the database and computational 
 ## 📬 Contact
 
 For questions or contributions, please contact:  
-**In Won Yeu** (GitHub: [@InWonYeu](https://github.com/InWonYeu))
-**Jaeseon Kim** (GitHub: [@kasee0](https://github.com/kasee0))
-**Seojin Jeon** (GitHub: [@sjjeon6783](https://github.com/sjjeon6783))
+- **In Won Yeu** (GitHub: [@InWonYeu](https://github.com/InWonYeu))
+- **Jaeseon Kim** (GitHub: [@kasee0](https://github.com/kasee0))
+- **Seojin Jeon** (GitHub: [@sjjeon6783](https://github.com/sjjeon6783))
