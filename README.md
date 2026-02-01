@@ -53,7 +53,7 @@ Two datasets were constructed:
 | Dataset | Sampling Methods | Configuration Space Coverage |
 |---------|------------------|-------------------------------|
 | **Set #1** | Relaxation + MD | Near-equilibrium only |
-| **Set #2** | Relaxation + MD + **NEB** | Near-equilibrium + Transition states |
+| **Set #2** | Relaxation + MD + **NEB** | Near-equilibrium + **Transition states** |
 
 ### 2️⃣ MLIP Training
 We trained neural network potentials using the **Atomistic Machine-learning Package (AMP)**.
@@ -95,7 +95,7 @@ Including NEB configurations significantly expands coverage of **high-energy and
 ### ⚛️ Force Prediction Accuracy and MD Stability
 The NEB-enhanced MLIP demonstrated:
 
-- Lower force errors **even for MD trajectories without diffusion process**
+- Lower force errors **for near-equilibrium MD trajectories even without diffusion process**
 - Stable long MD trajectories
 - Proper energy conservation
 
