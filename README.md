@@ -40,20 +40,20 @@ These systems provide well-defined diffusion pathways that are ideal for evaluat
 ## 🔬 Approach Overview
 
 ### 1️⃣ Data Generation
-Atomic configurations were generated using **ASE** with three complementary sampling strategies:
+Atomic configurations were generated using **Atomic Simulation Environment (ASE)** with three complementary sampling strategies:
 
 | Method | Purpose | Configuration Type |
 |-------|---------|--------------------|
 | Relaxation | Stable geometries | Energy minima |
 | Molecular Dynamics (MD) | Thermal fluctuations | Near-equilibrium |
-| **NEB** | Diffusion pathways | **Saddle points & transition states** |
+| **NEB** | Diffusion pathways | **Transition states** |
 
 Two datasets were constructed:
 
 | Dataset | Sampling Methods | Configuration Space Coverage |
 |---------|------------------|-------------------------------|
 | **Set #1** | Relaxation + MD | Near-equilibrium only |
-| **Set #2** | Relaxation + MD + **NEB** | Near-equilibrium + saddle points |
+| **Set #2** | Relaxation + MD + **NEB** | Near-equilibrium + Transition states |
 
 ### 2️⃣ MLIP Training
 We trained neural network potentials using the **Atomistic Machine-learning Package (AMP)**.
