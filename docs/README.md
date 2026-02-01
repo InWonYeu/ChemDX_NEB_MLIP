@@ -3,7 +3,7 @@
 This project explores a data-centric strategy for improving Machine Learning Interatomic Potentials (MLIPs) by systematically incorporating transition-state information into the training dataset. 
 Conventional MLIPs are typically trained on near-equilibrium structures obtained from relaxation and molecular dynamics (MD), which limits their reliability when simulations probe activated processes. 
 To address this, we investigate whether adding minimum energy path (MEP) configurations obtained from Nudged Elastic Band (NEB) calculations can enhance model transferability and stability. 
-The study focuses on Au adsorption and diffusion on Al(100) and AlPd(100) surfaces, which provide well-defined diffusion pathways.
+The study focuses on Au adsorption on Al(100) and AlPd(100) surfaces, which provide well-defined diffusion pathways.
 
 ## Key Methods and Approaches
 
@@ -15,7 +15,7 @@ The models were evaluated through force error analysis and ANN-driven molecular 
 ## Key Results and Contribution
 
 Including NEB-derived transition-state data significantly improved MLIP performance in off-equilibrium regions. 
-The NEB-enhanced model showed lower force prediction errors and maintained stable, energy-conserving MD trajectories, 
-while the MD-only model frequently exhibited energy drift and instability. 
+The NEB-enhanced model showed lower force prediction errors for near-equilibrium MD trajectories even without diffusion process. 
+It also maintained stable and energy-conserving MD trajectories, while the MD-only model frequently exhibited energy drift and instability. 
 These results demonstrate that strategically enriching training data with physically important but underrepresented configurations can be more effective than simply increasing model size. 
-The project highlights a practical pathway toward more robust and transferable MLIPs for simulating activated processes.
+The project highlights a practical pathway toward more robust and transferable MLIPs.
