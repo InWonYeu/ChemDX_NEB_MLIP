@@ -92,12 +92,10 @@ Including NEB configurations significantly expands coverage of **high-energy and
   <img src="docs/images/dataset_comparison.gif" width="700">
 </p>
 
-### ⚛️ Force Prediction Accuracy
-Models trained with NEB data showed **lower force errors**.
-
-### ⚛️ MD Stability: NEB Makes a Difference
+### ⚛️ Force Prediction Accuracy and MD Stability
 The NEB-enhanced MLIP demonstrated:
 
+- Lower force errors
 - Stable long MD trajectories
 - Proper energy conservation
 - Physically realistic diffusion behavior
