@@ -1,6 +1,7 @@
 # ChemDX_NEB_MLIP
 
 Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
+
 🏆 Developed as part of the **KRICT ChemDX Hackathon 2025**
 
 ---
@@ -84,15 +85,15 @@ Evaluation metrics included:
 ### 🧩 Dataset Impact
 Including NEB configurations significantly expands coverage of **high-energy and transition-state regions**, which are missing in conventional MD-only datasets.
 
-### ⚛️ Force Prediction Accuracy
-Models trained with NEB data showed **lower force errors**.
-
-- [Tutorial: Au on Al(100)](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/01_data_generation.ipynb)
-- [Tutorial: Au on AlPd(100)](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/01_data_generation.ipynb)
+- [Tutorial: Au on Al(100) data generation](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/01_data_generation.ipynb)
+- [Tutorial: Au on AlPd(100) data generation](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/01_data_generation.ipynb)
   
 <p align="center">
   <img src="docs/images/dataset_comparison.gif" width="700">
 </p>
+
+### ⚛️ Force Prediction Accuracy
+Models trained with NEB data showed **lower force errors**.
 
 ### ⚛️ MD Stability: NEB Makes a Difference
 The NEB-enhanced MLIP demonstrated:
@@ -106,10 +107,10 @@ The NEB-enhanced MLIP demonstrated:
 | Relax + MD           | High        | ❌                    |
 | Relax + MD + **NEB**       | Low         | ✅                    |
 
-- [Tutorial: Au on Al(100) on set 1](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/02_training_MD_set_1.ipynb)
-- [Tutorial: Au on Al(100) on set 2](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/02_training_MD_set_2.ipynb)
-- [Tutorial: Au on AlPd(100) on set 1](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/02_training_MD_set_1.ipynb)
-- [Tutorial: Au on AlPd(100) on set 2](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/02_training_MD_set_2.ipynb)
+- [Tutorial: Au on Al(100) trained on set 1](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/02_training_MD_set_1.ipynb)
+- [Tutorial: Au on Al(100) trained on set 2](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_Al/02_training_MD_set_2.ipynb)
+- [Tutorial: Au on AlPd(100) trained on set 1](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/02_training_MD_set_1.ipynb)
+- [Tutorial: Au on AlPd(100) trained on set 2](https://colab.research.google.com/github/InWonYeu/ChemDX_NEB_MLIP/blob/master/jupyter_notebook/Au_on_AlPd/02_training_MD_set_2.ipynb)
 
 <p align="center">
   <img src="docs/images/md_results.gif" width="750">
