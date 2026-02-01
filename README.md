@@ -95,7 +95,7 @@ Including NEB configurations significantly expands coverage of **high-energy and
 ### ⚛️ Force Prediction Accuracy and MD Stability
 The NEB-enhanced MLIP demonstrated:
 
-- Lower force errors **for near-equilibrium MD trajectories even without diffusion process**
+- Lower force errors **even for near-equilibrium MD trajectories without diffusion process**
 - Stable long MD trajectories
 - Proper energy conservation
 
