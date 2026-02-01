@@ -42,10 +42,14 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 
 ## ⚙️ Systems Studied
 
+We focused on surface adsorption systems where diffusion and saddle-point configurations are physically important:
+
 | System            | Type         | Stable Site |
 |------------------|--------------|-------------|
 | Au on Al(100)     | Single metal | Hollow      |
 | Au on AlPd(100)   | Alloy metal  | Hollow      |
+
+These systems provide well-defined diffusion pathways that are ideal for evaluating the impact of NEB data on MLIP performance.
 
 <p align="center">
   <img src="docs/images/system_PES.png" width="800">
