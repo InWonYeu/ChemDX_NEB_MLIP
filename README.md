@@ -22,7 +22,7 @@ Machine Learning Interatomic Potential (MLIP) project using the ChemDX database
 
 ## ⚙️ Systems Studied
 
-We focused on surface adsorption systems where diffusion and saddle-point configurations are physically important:
+We focused on surface adsorption systems:
 
 | System | Surface Type | Adsorbate | Stable Site |
 |--------|--------------|-----------|-------------|
@@ -95,10 +95,9 @@ Including NEB configurations significantly expands coverage of **high-energy and
 ### ⚛️ Force Prediction Accuracy and MD Stability
 The NEB-enhanced MLIP demonstrated:
 
-- Lower force errors
+- Lower force errors **even for MD trajectories without diffusion process
 - Stable long MD trajectories
 - Proper energy conservation
-- Physically realistic diffusion behavior
 
 | Model Type         | Force Error | Energy Conservation |
 |--------------------|-------------|----------------------|
